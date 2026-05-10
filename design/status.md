@@ -18,7 +18,7 @@ Current next steps are: to define the scope of - and complete a design specifica
         - by card embedding vector
     - Delta API: Receive a notification stream of corpus updates.
 - Define data models to represent Hexdown ontology
-    - Gardeners (mutuals with plot / sow / forage permissions)
+    - Gardeners (peers with permissions to use plot / sow / splice / forage / delta APIs)
     - Orchards / Plots / Arbors (corpus structure)
     - Cards (document content)
         - Scheme (subset of arbor to apply to card text)
