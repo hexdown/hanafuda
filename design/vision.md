@@ -22,7 +22,7 @@ Hanafuda is **not** responsible for:
 - authentication of gardener identity — Hanafuda is given a gardener id and trusts that the upstream daemon verified it
 - computing embedding vectors — vectors are supplied by callers, Hanafuda only stores and indexes them
 - ingesting or rendering markdown — separate shim crates layer on top of Hanafuda for those tasks
-- parsing arbors or card schemes from sources other than their canonical sip serialization — that, too, is an upstream concern
+- parsing arbors or trellises from sources other than their canonical sip serialization — that, too, is an upstream concern
 
 ## APIs
 

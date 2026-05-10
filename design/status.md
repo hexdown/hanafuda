@@ -28,10 +28,10 @@ Current next steps are: to define the scope of - and complete a design specifica
         - Till - delta to orchard / plot / arbor
         - Flush - delta to card index / text
     - Vector embedding card indices (root card embeddings represent entire document tree)
-    - Metascheme for representing parse tree for Hexdown serialisation as a series of 6-bit 'sips' (between a 4-bit 'nibble' and 8-bit 'byte')
-        - Document node metascheme for representing Commonmark Markdown document structure
-        - Stem / Blossom metascheme for representing different families of rendered text glyphs
-            - initial implementation: Stem / Blossom metascheme for representing English prose in the Latin Modern Roman alphabet
+    - Metaschema for representing parse tree for Hexdown serialisation as a series of 6-bit 'sips' (between a 4-bit 'nibble' and 8-bit 'byte')
+        - Document node metaschema for representing Commonmark Markdown document structure
+        - Stem / Blossom metaschema for representing different families of rendered text glyphs
+            - initial implementation: Stem / Blossom metaschema for representing English prose in the Latin Modern Roman alphabet
 - Define module structure for rust implementation
 - Define initial prototype validation flow
     - Additional ingestion layer that uses tree-sitter to ingest markdown documents
